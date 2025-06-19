@@ -23,18 +23,6 @@ import java.util.Map;
 @RestControllerAdvice
 @Slf4j
 public class DefaultExceptionAdvice {
-
-//    @ExceptionHandler(ResourceNotFoundException.class)
-//    public ResponseEntity<ErrorObject> handleResourceNotFoundException(ResourceNotFoundException ex) {
-//        ErrorObject errorObject = new ErrorObject();
-//        errorObject.setStatusCode(ex.getHttpStatus().value());
-//        errorObject.setMessage(ex.getMessage());
-//
-//        log.error(ex.getMessage(), ex);
-//
-//        return new ResponseEntity<ErrorObject>(errorObject, HttpStatusCode.valueOf(ex.getHttpStatus().value()));
-//    }
-
     /*
         Spring6 버전에 추가된 ProblemDetail 객체에 에러정보를 담아서 리턴하는 방법
      */

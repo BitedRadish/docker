@@ -9,6 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.employee</groupId>
+<!--	jar 이름임 -->
 	<artifactId>DeploySpringBoot</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>DeploySpringBoot</name>
@@ -115,6 +116,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>springboot-reactjs-backend</finalName>
 	</build>
 
 </project>
